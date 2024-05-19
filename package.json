@@ -7,6 +7,7 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
+    "fmt": "prettier --write .",
     "astro": "astro"
   },
   "dependencies": {
@@ -15,6 +16,8 @@
     "@types/react": "npm:types-react@beta",
     "@types/react-dom": "npm:types-react-dom@beta",
     "astro": "^4.8.6",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
     "react": "^19.0.0-beta-26f2496093-20240514",
     "react-dom": "^19.0.0-beta-26f2496093-20240514",
     "typescript": "^5.4.5"
